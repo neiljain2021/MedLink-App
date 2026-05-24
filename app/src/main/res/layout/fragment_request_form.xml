@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/white">
+
+    <!-- Top Bar -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="56dp"
+        android:orientation="horizontal" android:gravity="center_vertical"
+        android:paddingStart="8dp" android:paddingEnd="20dp"
+        android:background="@color/white" android:elevation="2dp">
+        <ImageView android:id="@+id/btn_back"
+            android:layout_width="44dp" android:layout_height="44dp"
+            android:src="@drawable/ic_back" android:padding="10dp"
+            android:contentDescription="Back" android:clickable="true" android:focusable="true"/>
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="Request Medicine"
+            android:textSize="18sp" android:textStyle="bold" android:textColor="@color/text_primary"
+            android:gravity="center"/>
+        <View android:layout_width="44dp" android:layout_height="44dp"/>
+    </LinearLayout>
+
+    <!-- Step Indicator -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical"
+        android:paddingStart="20dp" android:paddingEnd="20dp"
+        android:paddingTop="16dp" android:paddingBottom="4dp">
+        <TextView android:id="@+id/tv_step_label"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Step 1 of 2" android:textSize="13sp"
+            android:textStyle="bold" android:textColor="@color/primary"/>
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <TextView android:id="@+id/tv_step_desc"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Medicine &amp; Verification" android:textSize="12sp"
+            android:textColor="@color/text_secondary"/>
+    </LinearLayout>
+
+    <!-- Progress bar track -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="6dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp" android:layout_marginEnd="20dp"
+        android:layout_marginBottom="4dp" android:background="@drawable/bg_progress_track">
+        <View android:id="@+id/step_progress_fill"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:background="@drawable/bg_progress_fill_blue"/>
+    </LinearLayout>
+
+    <!-- Scrollable form content -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:background="@color/background">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:paddingBottom="16dp">
+
+            <!-- ===== STEP 1 CONTENT ===== -->
+            <LinearLayout android:id="@+id/step1_container"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Medicine Details Section -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_vertical"
+                    android:paddingStart="20dp" android:paddingEnd="20dp"
+                    android:paddingTop="20dp" android:paddingBottom="12dp">
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                        android:src="@drawable/ic_pill" android:contentDescription="Medicine"
+                        android:layout_marginEnd="8dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Medicine Details" android:textSize="16sp"
+                        android:textStyle="bold" android:textColor="@color/text_primary"/>
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp" android:layout_marginEnd="16dp"
+                    android:paddingStart="16dp" android:paddingEnd="16dp"
+                    android:paddingTop="16dp" android:paddingBottom="16dp"
+                    android:background="@color/white">
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Medicine Name" android:textSize="13sp"
+                        android:textColor="@color/text_secondary" android:layout_marginBottom="6dp"/>
+                    <EditText android:id="@+id/et_medicine_name"
+                        android:layout_width="match_parent" android:layout_height="50dp"
+                        android:hint="e.g. Insulin, Metformin"
+                        android:textColorHint="@color/text_hint" android:textColor="@color/text_primary"
+                        android:textSize="14sp" android:background="@drawable/bg_input_field"
+                        android:paddingStart="14dp" android:paddingEnd="14dp"
+                        android:layout_marginBottom="16dp" android:inputType="text"/>
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Dosage / Strength" android:textSize="13sp"
+                        android:textColor="@color/text_secondary" android:layout_marginBottom="6dp"/>
+                    <EditText android:id="@+id/et_dosage"
+                        android:layout_width="match_parent" android:layout_height="50dp"
+                        android:hint="e.g. 500mg, 10 units"
+                        android:textColorHint="@color/text_hint" android:textColor="@color/text_primary"
+                        android:textSize="14sp" android:background="@drawable/bg_input_field"
+                        android:paddingStart="14dp" android:paddingEnd="14dp"
+                        android:inputType="text"/>
+                </LinearLayout>
+
+                <!-- Prescription Section -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_vertical"
+                    android:paddingStart="20dp" android:paddingEnd="20dp"
+                    android:paddingTop="20dp" android:paddingBottom="12dp">
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                        android:src="@drawable/ic_requests" android:contentDescription="Prescription"
+                        android:layout_marginEnd="8dp"/>
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:text="Prescription"
+                        android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text_primary"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="REQUIRED" android:textSize="10sp" android:textStyle="bold"
+                        android:textColor="@color/accent_red" android:background="@drawable/bg_status_processing"
+                        android:paddingStart="10dp" android:paddingEnd="10dp"
+                        android:paddingTop="4dp" android:paddingBottom="4dp"/>
+                </LinearLayout>
+
+                <!-- Upload area -->
+                <LinearLayout android:id="@+id/btn_upload_prescription"
+                    android:layout_width="match_parent" android:layout_height="110dp"
+                    android:orientation="vertical" android:gravity="center"
+                    android:background="@drawable/bg_dashed_upload"
+                    android:layout_marginStart="16dp" android:layout_marginEnd="16dp"
+                    android:clickable="true" android:focusable="true">
+                    <ImageView android:layout_width="36dp" android:layout_height="36dp"
+                        android:src="@drawable/ic_upload" android:contentDescription="Upload"
+                        android:layout_marginBottom="8dp"/>
+                    <TextView android:id="@+id/tv_upload_label"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Click to upload prescription"
+                        android:textSize="14sp" android:textColor="@color/text_primary" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="PDF, JPG, or PNG (Max 5MB)"
+                        android:textSize="12sp" android:textColor="@color/text_secondary"/>
+                </LinearLayout>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:text="* Your prescription will only be shared with verified healthcare professionals and NGOs for verification purposes."
+                    android:textSize="11sp" android:textColor="@color/text_secondary"
+                    android:paddingStart="20dp" android:paddingEnd="20dp"
+                    android:paddingTop="10dp" android:paddingBottom="4dp"/>
+
+                <!-- Broadcast Info Section -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_vertical"
+                    android:paddingStart="20dp" android:paddingEnd="20dp"
+                    android:paddingTop="20dp" android:paddingBottom="12dp">
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                        android:src="@drawable/ic_ngos" android:contentDescription="NGO"
+                        android:layout_marginEnd="8dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Distribution" android:textSize="16sp"
+                        android:textStyle="bold" android:textColor="@color/text_primary"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_vertical"
+                    android:background="@drawable/bg_ngo_option_selected"
+                    android:layout_marginStart="16dp" android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp" android:padding="14dp">
+                    <FrameLayout android:layout_width="40dp" android:layout_height="40dp"
+                        android:background="@drawable/bg_category_purple" android:layout_marginEnd="12dp">
+                        <ImageView android:layout_width="22dp" android:layout_height="22dp"
+                            android:layout_gravity="center" android:src="@drawable/ic_shuffle"
+                            android:contentDescription="Broadcast"/>
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Broadcast to all NGOs" android:textSize="14sp"
+                            android:textStyle="bold" android:textColor="@color/text_primary"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="The first available NGO will fulfill your request" android:textSize="12sp"
+                            android:textColor="@color/text_secondary"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <!-- End Step 1 -->
+
+            <!-- ===== STEP 2 CONTENT ===== -->
+            <LinearLayout android:id="@+id/step2_container"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:visibility="gone">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:gravity="center"
+                    android:paddingTop="32dp" android:paddingBottom="16dp">
+                    <ImageView android:layout_width="56dp" android:layout_height="56dp"
+                        android:src="@drawable/ic_verified_badge" android:contentDescription="Confirmed"
+                        android:layout_marginBottom="12dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Review Your Request" android:textSize="20sp"
+                        android:textStyle="bold" android:textColor="@color/text_primary"
+                        android:gravity="center"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Please confirm the details below" android:textSize="13sp"
+                        android:textColor="@color/text_secondary" android:gravity="center"
+                        android:layout_marginTop="4dp"/>
+                </LinearLayout>
+
+                <!-- Review Card -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:background="@drawable/bg_card"
+                    android:layout_marginStart="16dp" android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp" android:padding="20dp">
+
+                    <!-- Medicine -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingBottom="14dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Medicine"
+                            android:textSize="13sp" android:textColor="@color/text_secondary"/>
+                        <TextView android:id="@+id/review_medicine"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="—" android:textSize="13sp"
+                            android:textStyle="bold" android:textColor="@color/text_primary"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                        android:background="@color/divider" android:layout_marginBottom="14dp"/>
+
+                    <!-- Dosage -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingBottom="14dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Dosage"
+                            android:textSize="13sp" android:textColor="@color/text_secondary"/>
+                        <TextView android:id="@+id/review_dosage"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="—" android:textSize="13sp"
+                            android:textStyle="bold" android:textColor="@color/text_primary"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                        android:background="@color/divider" android:layout_marginBottom="14dp"/>
+
+                    <!-- NGO -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:paddingBottom="14dp">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="NGO Partner"
+                            android:textSize="13sp" android:textColor="@color/text_secondary"/>
+                        <TextView android:id="@+id/review_ngo"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="—" android:textSize="13sp"
+                            android:textStyle="bold" android:textColor="@color/text_primary"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                        android:background="@color/divider" android:layout_marginBottom="14dp"/>
+
+                    <!-- Prescription -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Prescription"
+                            android:textSize="13sp" android:textColor="@color/text_secondary"/>
+                        <TextView android:id="@+id/review_prescription"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Uploaded ✓" android:textSize="13sp"
+                            android:textStyle="bold" android:textColor="@color/accent_green"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <!-- End Step 2 -->
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Bottom Continue/Submit Button -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:background="@color/white"
+        android:paddingStart="16dp" android:paddingEnd="16dp"
+        android:paddingTop="12dp" android:paddingBottom="16dp"
+        android:elevation="8dp">
+
+        <TextView android:id="@+id/btn_continue"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="Continue →" android:textColor="@color/white"
+            android:textSize="16sp" android:textStyle="bold"
+            android:background="@drawable/bg_primary_button"
+            android:gravity="center" android:clickable="true" android:focusable="true"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="By clicking continue, you agree to our Terms of Service."
+            android:textSize="11sp" android:textColor="@color/text_secondary"
+            android:gravity="center" android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>

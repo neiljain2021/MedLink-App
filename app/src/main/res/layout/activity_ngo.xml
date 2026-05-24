@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_ngo.xml — Root layout for NgoActivity with drawer navigation -->
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ngo_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <!-- ===== MAIN CONTENT AREA ===== -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background">
+
+        <!-- Top toolbar with hamburger menu -->
+        <!-- Simple horizontal toolbar with explicit spacing -->
+        <LinearLayout
+            android:id="@+id/ngo_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@color/surface"
+            android:elevation="4dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp">
+
+            <ImageView
+                android:id="@+id/btn_menu_ngo"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_menu"
+                android:padding="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:tint="@color/text_primary"
+                android:contentDescription="Menu" />
+
+            <TextView
+                android:id="@+id/tv_ngo_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:text="NGO Dashboard"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary" />
+
+            <ImageView
+                android:id="@+id/btn_ngo_notifications"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_notification"
+                android:padding="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:tint="@color/primary" />
+        </LinearLayout>
+
+        <!-- Fragment container -->
+        <FrameLayout
+            android:id="@+id/ngo_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include layout="@layout/layout_ngo_pending" />
+
+    </LinearLayout>
+
+    <!-- ===== NAVIGATION DRAWER (Sidebar) ===== -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/ngo_nav_view"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/surface"
+        app:headerLayout="@layout/nav_header_ngo"
+        app:menu="@menu/ngo_nav_menu"
+        app:itemTextColor="@color/text_primary"
+        app:itemIconTint="@color/primary" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

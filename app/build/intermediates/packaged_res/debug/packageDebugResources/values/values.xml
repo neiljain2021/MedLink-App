@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_green">#10B981</color>
+    <color name="accent_green_surface">#D1FAE5</color>
+    <color name="accent_orange">#F59E0B</color>
+    <color name="accent_orange_surface">#FEF3C7</color>
+    <color name="accent_purple">#8B5CF6</color>
+    <color name="accent_purple_surface">#EDE9FE</color>
+    <color name="accent_red">#EF4444</color>
+    <color name="accent_red_surface">#FEE2E2</color>
+    <color name="accent_teal">#06B6D4</color>
+    <color name="accent_teal_surface">#CFFAFE</color>
+    <color name="background">#F8FAFC</color>
+    <color name="black">#000000</color>
+    <color name="border">#CBD5E1</color>
+    <color name="bottom_nav_background">#FFFFFF</color>
+    <color name="bottom_nav_selected">#2563EB</color>
+    <color name="bottom_nav_unselected">#94A3B8</color>
+    <color name="divider">#E2E8F0</color>
+    <color name="primary">#2563EB</color>
+    <color name="primary_dark">#1D4ED8</color>
+    <color name="primary_light">#3B82F6</color>
+    <color name="primary_surface">#EFF6FF</color>
+    <color name="progress_bg">#E2E8F0</color>
+    <color name="shadow">#1A000000</color>
+    <color name="status_pending">#F59E0B</color>
+    <color name="status_pending_bg">#FEF3C7</color>
+    <color name="status_processing">#3B82F6</color>
+    <color name="status_processing_bg">#EFF6FF</color>
+    <color name="status_ready">#10B981</color>
+    <color name="status_ready_bg">#D1FAE5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_elevated">#FFFFFF</color>
+    <color name="text_hint">#94A3B8</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="avatar_size">38dp</dimen>
+    <dimen name="bottom_nav_height">64dp</dimen>
+    <dimen name="bottom_nav_icon">24dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="category_icon_inner">26dp</dimen>
+    <dimen name="category_icon_size">48dp</dimen>
+    <dimen name="icon_lg">32dp</dimen>
+    <dimen name="icon_md">24dp</dimen>
+    <dimen name="icon_sm">18dp</dimen>
+    <dimen name="radius_lg">16dp</dimen>
+    <dimen name="radius_md">12dp</dimen>
+    <dimen name="radius_pill">50dp</dimen>
+    <dimen name="radius_sm">8dp</dimen>
+    <dimen name="radius_xl">24dp</dimen>
+    <dimen name="search_bar_height">50dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+    <dimen name="text_display">28sp</dimen>
+    <dimen name="text_lg">16sp</dimen>
+    <dimen name="text_md">14sp</dimen>
+    <dimen name="text_sm">12sp</dimen>
+    <dimen name="text_xl">18sp</dimen>
+    <dimen name="text_xs">10sp</dimen>
+    <dimen name="text_xxl">24sp</dimen>
+    <string name="amoxicillin">Amoxicillin 500mg</string>
+    <string name="antibiotics">Antibiotics</string>
+    <string name="app_name">MedLink</string>
+    <string name="awaiting_pickup">Awaiting pickup</string>
+    <string name="cardiac">Cardiac</string>
+    <string name="categories">Categories</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="donate">Donate</string>
+    <string name="donate_medicine">Donate Medicine</string>
+    <string name="expected_2_days">Expected: 2 days</string>
+    <string name="find_medicine">Find Medicine</string>
+    <string name="find_ngo">Find NGO Partners</string>
+    <string name="find_store_subtitle">Locate nearby donation centers within 10km.</string>
+    <string name="find_store_title">Find Our Store</string>
+    <string name="first_aid">First Aid</string>
+    <string name="gcm_defaultSenderId" translatable="false">798876271353</string>
+    <string name="google_api_key" translatable="false">AIzaSyArKTBf2UrJ6ZmRf7vZJd-Z5A7aWc14A-E</string>
+    <string name="google_app_id" translatable="false">1:798876271353:android:20466df33aedfcd6f19828</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyArKTBf2UrJ6ZmRf7vZJd-Z5A7aWc14A-E</string>
+    <string name="google_storage_bucket" translatable="false">medlink-4809f.firebasestorage.app</string>
+    <string name="home">Home</string>
+    <string name="insulin_glargine">Insulin Glargine</string>
+    <string name="location_red_cross">Location: Red Cross Center Downtown</string>
+    <string name="mental_health">Mental Health</string>
+    <string name="my_requests">My Requests</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="need_help_subtitle">Connect with 50+ local NGO partners near you.</string>
+    <string name="need_help_title">Need direct help?</string>
+    <string name="ngos">NGOs</string>
+    <string name="notification">Notifications</string>
+    <string name="pick_up_now">Pick up now</string>
+    <string name="processing">PROCESSING</string>
+    <string name="profile">Profile</string>
+    <string name="project_id" translatable="false">medlink-4809f</string>
+    <string name="ready">READY</string>
+    <string name="requested_from_hope">Requested from: Hope Health NGO</string>
+    <string name="requests">Requests</string>
+    <string name="search">Search</string>
+    <string name="search_from_ngo">Search from verified NGO inventory</string>
+    <string name="search_hint">Search for Insulin, Amoxicil…</string>
+    <string name="track_history">Track History</string>
+    <string name="verifying_prescription">Verifying prescription</string>
+    <string name="view_all">View All</string>
+    <string name="view_on_map">View on Map</string>
+    <style name="BottomNavTextActive" parent="">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BottomNavTextInactive" parent="">
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="Button.Outline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_md</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">@dimen/radius_pill</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    <style name="Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_md</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">@dimen/radius_pill</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    <style name="CardStyle.Default" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">@dimen/radius_lg</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_md</item>
+    </style>
+    <style name="SearchBar" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/surface</item>
+        <item name="boxStrokeColor">@color/divider</item>
+        <item name="boxCornerRadiusTopStart">@dimen/radius_xl</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/radius_xl</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/radius_xl</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/radius_xl</item>
+        <item name="hintTextColor">@color/text_hint</item>
+    </style>
+    <style name="TextStyle.Body" parent="">
+        <item name="android:textSize">@dimen/text_md</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="TextStyle.Caption" parent="">
+        <item name="android:textSize">@dimen/text_sm</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="TextStyle.Display" parent="">
+        <item name="android:textSize">@dimen/text_display</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+    <style name="TextStyle.Headline" parent="">
+        <item name="android:textSize">@dimen/text_xxl</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextStyle.Label" parent="">
+        <item name="android:textSize">@dimen/text_xs</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+    <style name="TextStyle.Subtitle" parent="">
+        <item name="android:textSize">@dimen/text_md</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="TextStyle.Title" parent="">
+        <item name="android:textSize">@dimen/text_xl</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.MedLink" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent_green</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

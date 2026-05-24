@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ic_launcher_round.xml - Round launcher icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Circular background -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M54,0A54,54 0,1 1,54 108A54,54 0,1 1,54 0z" />
+    <!-- Medical cross -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M67,45H63V41C63,38.79 61.21,37 59,37H49C46.79,37 45,38.79 45,41V45H41C38.79,45 37,46.79 37,49V59C37,61.21 38.79,63 41,63H45V67C45,69.21 46.79,71 49,71H59C61.21,71 63,69.21 63,67V63H67C69.21,63 71,61.21 71,59V49C71,46.79 69.21,45 67,45z" />
+</vector>

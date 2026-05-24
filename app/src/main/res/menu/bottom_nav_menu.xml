@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bottom Navigation Menu -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/nav_requests"
+        android:icon="@drawable/ic_requests"
+        android:title="@string/requests" />
+    <item
+        android:id="@+id/nav_donate"
+        android:icon="@drawable/ic_donate"
+        android:title="@string/donate" />
+    <item
+        android:id="@+id/nav_ngos"
+        android:icon="@drawable/ic_ngos"
+        android:title="@string/ngos" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/profile" />
+</menu>

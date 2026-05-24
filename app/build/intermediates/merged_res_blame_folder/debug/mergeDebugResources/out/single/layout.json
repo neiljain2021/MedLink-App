@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\item_ngo_request.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\item_ngo_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_ngo_profile.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_ngo_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_verify_profile.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_verify_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_ngo_requests.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_ngo_requests.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\item_onboarding.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\item_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_admin_donations.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_admin_donations.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_ngo_inventory.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_ngo_inventory.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_admin_verification.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_admin_verification.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\activity_ngo_login.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\activity_ngo_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_admin_ngos.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_admin_ngos.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_request_form.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_request_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\nav_header_admin.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\nav_header_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\item_ngo_donation.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\item_ngo_donation.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\item_admin_donation.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\item_admin_donation.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_admin_requests.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_admin_requests.xml"
+    },
+    {
+        "merged": "com.medlink.app-mergeDebugResources-44:/layout/item_ngo_activity.xml",
+        "source": "com.medlink.app-main-47:/layout/item_ngo_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_ngo_list.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_ngo_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\nav_header_ngo.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\nav_header_ngo.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\item_request_card.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\item_request_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_ngo_dashboard.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_ngo_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\item_admin_request.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\item_admin_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\item_ngo_inventory.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\item_ngo_inventory.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\item_ngo_card.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\item_ngo_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_admin_users.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_admin_users.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_ngo_detail.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_ngo_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_requests.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_requests.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\activity_ngo.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\activity_ngo.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\layout_ngo_pending.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\layout_ngo_pending.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\activity_admin.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\activity_ngo_register.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\activity_ngo_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\item_admin_ngo.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\item_admin_ngo.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_admin_dashboard.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_donate.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_donate.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\item_admin_verification.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\item_admin_verification.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\activity_onboarding.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\activity_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\item_admin_user.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\item_admin_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-mergeDebugResources-44:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\neilj\\.gradle\\daemon\\9.3.1\\com.medlink.app-main-47:\\layout\\activity_splash.xml"
+    }
+]

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item_admin_user.xml — Single user row card in admin Users list -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_admin_stat_card"
+    android:padding="16dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+
+    <!-- Avatar circle with initial letter -->
+    <FrameLayout
+        android:id="@+id/fl_avatar"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bg_medicine_icon_blue"
+        android:layout_marginEnd="14dp">
+        <TextView
+            android:id="@+id/tv_avatar_initial"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="U" />
+    </FrameLayout>
+
+    <!-- User info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="John Doe"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary" />
+            <!-- Verified badge -->
+            <TextView
+                android:id="@+id/tv_verified_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="✓ Verified"
+                android:textSize="10sp"
+                android:textColor="#10B981"
+                android:background="@drawable/bg_status_ready"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                android:gravity="center"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="john@example.com"
+            android:textSize="12sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="2dp" />
+
+        <!-- Blocked badge -->
+        <TextView
+            android:id="@+id/tv_blocked_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="⛔ Blocked"
+            android:textSize="10sp"
+            android:textColor="#EF4444"
+            android:background="@drawable/bg_status_rejected"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- Action buttons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/btn_edit_user"
+            android:layout_width="60dp"
+            android:layout_height="28dp"
+            android:text="Edit"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bg_primary_button"
+            android:gravity="center"
+            android:layout_marginBottom="4dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/btn_block_user"
+            android:layout_width="60dp"
+            android:layout_height="28dp"
+            android:text="Block"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="#F59E0B"
+            android:background="@drawable/bg_status_pending"
+            android:gravity="center"
+            android:layout_marginBottom="4dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/btn_delete_user"
+            android:layout_width="60dp"
+            android:layout_height="28dp"
+            android:text="Delete"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="#EF4444"
+            android:background="@drawable/bg_status_rejected"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+
+</LinearLayout>

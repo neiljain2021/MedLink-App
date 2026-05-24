@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ngo_nav_dashboard"
+            android:icon="@drawable/ic_home"
+            android:title="Dashboard" />
+            
+        <item
+            android:id="@+id/ngo_nav_incoming"
+            android:icon="@drawable/ic_medicine_box"
+            android:title="Incoming Requests" />
+            
+        <item
+            android:id="@+id/ngo_nav_accepted"
+            android:icon="@drawable/ic_check_circle"
+            android:title="Accepted Requests" />
+            
+        <item
+            android:id="@+id/ngo_nav_completed"
+            android:icon="@drawable/ic_history"
+            android:title="Completed Requests" />
+
+        <item
+            android:id="@+id/ngo_nav_available_donations"
+            android:icon="@drawable/ic_donate"
+            android:title="Available Donations" />
+
+        <item
+            android:id="@+id/ngo_nav_accepted_donations"
+            android:icon="@drawable/ic_check_circle"
+            android:title="Accepted Donations" />
+
+        <item
+            android:id="@+id/ngo_nav_inventory"
+            android:icon="@drawable/ic_inventory"
+            android:title="Manage Inventory" />
+
+            
+        <item
+            android:id="@+id/ngo_nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="NGO Profile" />
+    </group>
+
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/ngo_nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ic_medicine_inject.xml - Syringe / injection icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M11.15,3.4L7.43,7.12 6.01,5.7 4.59,7.12l1.41,1.42 -1.41,1.41L3.17,8.53 1.76,9.95l1.41,1.41L1,13.54l1.86,1.86 3.03,-3.03 1.41,1.41 -3.03,3.03 1.86,1.86 2.17,-2.17 1.41,1.41 -2.17,2.17 1.86,1.86 2.17,-2.17 1.5,1.5c0.78,0.78 2.05,0.78 2.83,0s0.78,-2.05 0,-2.83l-1.5,-1.5L18,11.15c1.17,-1.17 1.17,-3.07 0,-4.24l-2.61,-2.61c-1.17,-1.17 -3.07,-1.17 -4.24,0z" />
+</vector>

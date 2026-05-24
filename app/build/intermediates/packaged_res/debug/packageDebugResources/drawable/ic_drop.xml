@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ic_drop.xml - Diabetes / blood drop icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M12,2c0,0 -6,7.5 -6,12a6,6 0,0 0,12 0C18,9.5 12,2 12,2zM9,15.5c-0.55,0 -1,-0.45 -1,-1 0,-2.15 1.4,-3.98 3.33,-4.65 0.5,-0.18 1.05,0.08 1.23,0.58s-0.08,1.05 -0.58,1.23C10.72,12.2 10,13.27 10,14.5c0,0.55 -0.45,1 -1,1z" />
+</vector>

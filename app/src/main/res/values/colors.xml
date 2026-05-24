@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors -->
+    <color name="primary">#2563EB</color>
+    <color name="primary_dark">#1D4ED8</color>
+    <color name="primary_light">#3B82F6</color>
+    <color name="primary_surface">#EFF6FF</color>
+
+    <!-- Accent / Secondary -->
+    <color name="accent_green">#10B981</color>
+    <color name="accent_green_surface">#D1FAE5</color>
+    <color name="accent_orange">#F59E0B</color>
+    <color name="accent_orange_surface">#FEF3C7</color>
+    <color name="accent_red">#EF4444</color>
+    <color name="accent_red_surface">#FEE2E2</color>
+    <color name="accent_purple">#8B5CF6</color>
+    <color name="accent_purple_surface">#EDE9FE</color>
+    <color name="accent_teal">#06B6D4</color>
+    <color name="accent_teal_surface">#CFFAFE</color>
+
+    <!-- Status Colors -->
+    <color name="status_processing">#3B82F6</color>
+    <color name="status_processing_bg">#EFF6FF</color>
+    <color name="status_ready">#10B981</color>
+    <color name="status_ready_bg">#D1FAE5</color>
+    <color name="status_pending">#F59E0B</color>
+    <color name="status_pending_bg">#FEF3C7</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_elevated">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_hint">#94A3B8</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Divider / Border -->
+    <color name="divider">#E2E8F0</color>
+    <color name="border">#CBD5E1</color>
+
+    <!-- Bottom Nav -->
+    <color name="bottom_nav_selected">#2563EB</color>
+    <color name="bottom_nav_unselected">#94A3B8</color>
+    <color name="bottom_nav_background">#FFFFFF</color>
+
+    <!-- Misc -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="shadow">#1A000000</color>
+    <color name="progress_bg">#E2E8F0</color>
+</resources>

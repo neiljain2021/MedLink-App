@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/bg_ngo_banner"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/nav_header_ngo_icon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_ngo_placeholder"
+        android:background="@drawable/bg_circle_white"
+        android:padding="8dp"
+        android:layout_marginBottom="12dp"
+        android:tint="@color/primary" />
+
+    <TextView
+        android:id="@+id/nav_header_ngo_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NGO Portal"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nav_header_ngo_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ngo@medlink.com"
+        android:textColor="#E0E0E0"
+        android:textSize="14sp" />
+
+</LinearLayout>
